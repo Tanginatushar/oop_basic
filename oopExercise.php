@@ -24,9 +24,10 @@ echo $course-> title;
 
 echo "<br>";
 
-$course->getCredits('hello','hi');
+$course->setCredits('hello','hi');
 
 $course->getLessons();
+
 
 
 
