@@ -8,20 +8,25 @@ include_once("classes/".$class_name.".php");
 //include_once('classes/Course.php');
 
 $Bkiict=new Bkiict();
-echo $Bkiict->fullName;
+//echo $Bkiict->fullName;
 
 $Student=new Student();
 
-var_dump($Student);
+//var_dump($Student);
 
-$Course=new Course();
+$course=new Course();
 echo $course-> title;
 echo "<br>";
 
 echo $course-> title='course Title';
+echo "<br>";
 echo $course-> title;
 
+echo "<br>";
 
+$course->getCredits('hello','hi');
+
+$course->getLessons();
 
 
 

@@ -1,7 +1,11 @@
 <?php
 class Course{
 
-    public $php='null';
-    public $sqa='null';
+    function __set($functionName ,$arguments){
+        echo "hello";
+    }
 
+    function __call($functionName ,$arguments){
+        echo "hello";
+    }
 }
